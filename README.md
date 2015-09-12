@@ -20,12 +20,12 @@ Steps
     classpath 'com.github.dcendents:android-maven-gradle-plugin:1.3'
 ```
 
--   Add `gradle-mvn-push.gradle` and `bintray.properties` files to your module
--   Configure `bintray.properties` file
+-   Add `bintray.properties` files to your library module
+-   Configure `bintray.properties`
 -   Add this line to end of your module's `build.gradle`
 
 ```groovy
-    apply from : 'gradle-mvn-push.gradle'
+apply from : 'https://raw.githubusercontent.com/jimmy0251/gradle-bintray-mvn-push/master/gradle-mvn-push.gradle'
 ```
 
 -   `gradlew binrayUpload`
