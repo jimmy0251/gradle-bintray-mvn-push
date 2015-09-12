@@ -28,4 +28,4 @@ Steps
     apply from : 'gradle-mvn-push.gradle'
 ```
 
-8. `gradlew binrayUpload`
+-   `gradlew binrayUpload`
