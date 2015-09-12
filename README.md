@@ -28,4 +28,4 @@ classpath 'com.github.dcendents:android-maven-gradle-plugin:1.3'
 apply from : 'https://raw.githubusercontent.com/jimmy0251/gradle-bintray-mvn-push/master/gradle-mvn-push.gradle'
 ```
 
--   `gradlew binrayUpload`
+-   Run `gradlew binrayUpload`
