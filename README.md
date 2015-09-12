@@ -7,7 +7,7 @@ Steps :
 2. create repository and package
 3. Obtain apikey from Edit profile and set it in local.properties of Project
 
-    bintray.apikey= API_KEY
+    bintray.apikey=API_KEY
     bintray.user=USER_ID
 
 4. Add this classpath to your root project buildscript dependencies
@@ -21,4 +21,4 @@ Steps :
 
     apply from : 'gradle-mvn-push.gradle'
 
-8. gradlew binrayUpload       YOOO !!! 
+8. gradlew binrayUpload
