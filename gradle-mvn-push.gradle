@@ -77,7 +77,7 @@ if(propertiesFile.exists()) {
     properties.load(new FileInputStream(propertiesFile))
 } else {
     properties.setProperty('bintray.apikey', System.getenv('BINTRAY_API_KEY'))
-    properties.setProperty('bintray.user', System.getenv('BINTRAY_HOME'))
+    properties.setProperty('bintray.user', System.getenv('BINTRAY_USER'))
 }
 
 bintray {
