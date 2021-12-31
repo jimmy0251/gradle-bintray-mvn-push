@@ -29,3 +29,8 @@ apply from : 'https://raw.githubusercontent.com/jimmy0251/gradle-bintray-mvn-pus
 ```
 
 -   Run `gradlew bintrayUpload`
+
+
+Credits
+=======
+[Canopas Software LLP](https://canopas.com)
